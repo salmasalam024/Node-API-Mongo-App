@@ -1,0 +1,8 @@
+Ú^@^@^@^G_id^@g^Fí¬ÀÙ<81><9c>^\ás¬^Btitle^@^U^@^@^@Target Server on AWS^@^Bdescription^@j^@^@^@This is the application served from target server after copying the files from the main server using scp ^@^His_complete^@^@     due_date^@^@¨¹s<92>^A^@^@^P__v^@^@^@^@^@^@á^A^@^@^G_id^@g^Fñ^DÀÙ<81>J^Lás­^Btitle^@^U^@^@^@Steps for Deployment^@^Bdescription^@q^A^@^@1. Run the first script to copy application files to target server.
+2. Run the second script to:
+      1) ssh into destination server
+      2) run docker-compose up to run application
+3. Run the third script to send an HTTP request to the EC2 public IP to ensure the application is running and returning a 200 OK status.
+4. Run the fourth script to stop all containers^@^His_complete^@^@      due_date^@ýw^]s<92>^A^@^@^P__v^@^@^@^@^@^@^V^A^@^@^G_id^@g^H/4vpã=r^NkÍ^Btitle^@3^@^@^@Automate Daily Backups of the Applicationâ<80><99>s Data^@^Bdescription^@<88>^@^@^@By automating daily backups and scheduling it with cron, This ensures that data is consistently backed up without manual intervention. ^@^His_complete^@^@    due_date^@^@^Dàx<92>^A^@^@^P__v^@^@^@^@^@^@
+~
+
