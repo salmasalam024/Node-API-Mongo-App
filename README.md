@@ -2,7 +2,7 @@
 # CRUD Application Deployment
 
 ## Note:
-More detailed steps and screen shots in the attached pdf file >> https://github.com/salmasalam024/Node-API-Mongo-App/blob/main/CRUD%20Docarized%20Application%20with%20Automation%20Scripts.pdf 
+More detailed steps and screen shots in the attached pdf file >> https://github.com/salmasalam024/Node-API-Mongo-App/blob/main/Containerized%20CRUD%20Application%20with%20Automation%20Scripts.pdf
 
 ## Overview
 This project is a containerized CRUD application that uses a MongoDB database. The application can be run locally with Docker and Docker Compose and deployed to an AWS EC2 instance. The MongoDB database is automatically backed up daily.
