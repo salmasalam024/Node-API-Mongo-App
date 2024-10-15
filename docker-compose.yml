@@ -30,11 +30,34 @@ services:
       - 27017:27017
     networks: 
      - network-backend
+  portainer:
+     image: portainer/portainer-ce
+     ports:
+      - "9000:9000"
+     networks:
+      - network-backend
+     volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+    restart: always
 
- 
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - "9090:9090"
+    networks:
+      - network-backend
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    restart: always
 
 networks:
   network-backend:
 
-volumes: 
+volumes:
   mongodb_data:
+  portainer_data:
+
+
+ 
+
