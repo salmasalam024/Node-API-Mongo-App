@@ -3,6 +3,7 @@
 
 ## Note:
 **More detailed steps and screen shots in the attached pdf file**
+
 **1- Deploying >>** https://github.com/salmasalam024/Node-API-Mongo-App/blob/main/Containerized%20CRUD%20Application%20with%20Automation%20Scripts.pdf
 **2- Monitoring >>** https://github.com/salmasalam024/Node-API-Mongo-App/blob/main/Monitoring%20CRUP%20App%20.pdf
 
