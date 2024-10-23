@@ -20,7 +20,7 @@ This project is a containerized CRUD application that uses a MongoDB database. T
 3. **Dockerize the application in three containers; the first for the application front end , the second for API and third for the database**
 4. **Running the application using Docker-Compose**
 5. **Pushing the Application into git repo** 
-6. **Clon application into Main Server on AWS**
+6. **Clone application into Main Server on AWS**
 7. **Write scripts to automate building, running, and stopping the Docker containers**
 8. **Write scripts to transfer code to target server and build/run the Docker image on the VM**
 9. **Write scripts to  ensure successful deployment.**
