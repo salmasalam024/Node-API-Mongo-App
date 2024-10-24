@@ -11,6 +11,7 @@
 
 ## Overview
 This project is a containerized CRUD application that uses a MongoDB database. The application can be run locally with Docker and Docker Compose and deployed to an AWS EC2 instance. The MongoDB database is automatically backed up daily.
+The second part is monitoring the application on various levels including the host ec2, all containers and the application itelf using prometheus also visualization using grafana.
 
 ## Prerequisites
 - Docker and Docker Compose installed.
@@ -30,7 +31,14 @@ This project is a containerized CRUD application that uses a MongoDB database. T
 8. **Write scripts to transfer code to target server and build/run the Docker image on the VM**
 9. **Write scripts to  ensure successful deployment.**
 10. **Implement an Automated Daily Task by Automatically back up the application's data once per day**
-
+11. **Adding a service in the docker-compose file to run portainer**
+12. **Adding a service in the docker-compose file to run prometheus**
+13. **Adding a service in the docker-compose file to run node-exporter**
+14. **Adding a service in the docker-compose file to run cAdvisor**
+15. **Creating prometheus.yml file to configure jobs and targets**
+16. **Adding a service in the docker-compose file to run grafana**
+17. **configure prometheus as a data source for garfana**
+18. **Import grafana dashboards for node-exporter and cAdvisor**
 
 ## More Details upon used docker images
 1. **Docker will create the [MongoDB](https://www.mongodb.com/) from the stock [mongo](https://hub.docker.com/_/mongo) image.**
