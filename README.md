@@ -19,7 +19,7 @@ The second part is monitoring the application on various levels including the ho
 - Two AWS EC2 instance running Ubuntu.
 - SSH access to both EC2 instances.
 
-## Steps to Build and Deploy and Automate Backup
+## Work flow to Build , Deploy , Automate Backup and Monitoring 
 
 1. **Clone the Repository**
 1. **Creating CRUD App** 
