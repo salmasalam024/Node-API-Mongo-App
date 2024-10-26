@@ -1,6 +1,6 @@
-![image](https://github.com/user-attachments/assets/a4e50864-b73d-4d82-bc52-954720d9e76e)
+![image](https://github.com/user-attachments/assets/570a55ad-37d1-4894-bba7-231e7e0498ee)
 
-# CRUD Application Deployment
+# CRUD Application Deployment, Containarization and Monitoring
 
 ## Note:
 **More detailed steps and screen shots in the attached pdf file**
